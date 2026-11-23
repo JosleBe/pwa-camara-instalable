@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f1;
+  color: #222;
+}
+
+main {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0 0 8px;
+}
+
+#estado {
+  margin: 0 0 12px;
+}
+
+#aviso-permiso,
+#instrucciones-ios {
+  border: 1px solid #bbb;
+  background: #fff;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 6px;
+}
+
+#aviso-permiso p,
+#instrucciones-ios p {
+  margin: 0 0 10px;
+}
+
+video {
+  display: block;
+  width: 100%;
+  background: #222;
+  border-radius: 6px;
+}
+
+.botones {
+  margin-top: 12px;
+}
+
+button {
+  font: inherit;
+  padding: 10px 12px;
+  margin: 0 6px 6px 0;
+  border: 1px solid #999;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+
+[hidden] {
+  display: none !important;
+}
